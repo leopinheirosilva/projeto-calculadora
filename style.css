@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Geist:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', Helvetica, sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #233329, #41b883);
+}
+
+.grid-container {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(4, 100px);
+    min-height: 100vh;
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.685);
+}
+
+.output {
+    grid-column: span 4;
+    background-color: #222;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+    min-height: 150px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.previous-operand {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+.current-operand {
+    font-size: 3rem;
+    padding: 10px;
+}
+
+button {
+    cursor: pointer;
+    font-size: 2rem;
+    border: none;
+    outline: none;
+    background-color: #111;
+    color: white;
+    padding: 10px;
+    height: 90px;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+.operator {
+    background-color: #41b883;
+    color: white;
+}
+
+.operator:hover {
+    background-color: #36966e;
+}
+
+.span-two {
+    grid-column: span 2;
+}
+
+@media (max-width: 430px) {
+    body{
+        background: #233329;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(4, 1fr);
+        padding: 10px;
+    }
+}
