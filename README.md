@@ -1,7 +1,5 @@
 # Projeto Calculadora — calculadora simples com UI responsiva
 
-## TL;DR
-
 Aplicação de calculadora web com operações básicas (soma, subtração, multiplicação, divisão). Projeto pensado para demonstrar lógica, manipulação do DOM, atenção a UX e boas práticas front-end.
 
 ![gif-demonstração](midias/demo.gif)
