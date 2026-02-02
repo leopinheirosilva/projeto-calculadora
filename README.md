@@ -18,7 +18,7 @@ Aplicação de calculadora web com operações básicas (soma, subtração, mult
 
 Objetivo deste repositório: demonstrar fundamentos e ser um case apresentável no portfólio.
 
-### Contato
+## Contato
 
 Email: <leonardopinheirosilva16@gmail.com>
 
