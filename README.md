@@ -13,15 +13,18 @@ Aplicação de calculadora web com operações básicas (soma, subtração, mult
 
 ## Tech Stack
 
-- Front-end: HTML, CSS, JavaScript
-- Deploy: GitHub Pages
+- HTML
+- CSS
+- JavaScript
 
-Objetivo deste repositório: demonstrar fundamentos e ser um case apresentável no portfólio.
+## Deploy
+
+- GitHub Pages
+
+Clique [aqui](https://leopinheirosilva.github.io/projeto-calculadora/) para acessar o site!
 
 ## Contato
 
 Email: <leonardopinheirosilva16@gmail.com>
 
 LinkedIn: <https://www.linkedin.com/in/leonardo-pinheiro-13ba26281/>
-
-Clique [aqui](https://leopinheirosilva.github.io/projeto-calculadora/) para acessar o site!
